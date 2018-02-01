@@ -1,10 +1,8 @@
 import random
 def ask_question():
     question = input("What is your question?  ")
-<<<<<<< HEAD
     possible_answers = ["it is certain", "it is decidedly so", "without a doubt", "yes definitely", "you may rely on it", "as i see it, yes", "most likely","outlook good","yes","signs point to yes", "reply hazy try again", "ask again later", "better not tell you now", "cannot predict now", "concentrate and ask again","don't count on it", "my sources say no", "outlook not so goood", "very doubtful"]
     return random.choice(possible_answers)
-=======
     return question
 
 while True:
@@ -13,4 +11,3 @@ while True:
         break
     elif q[-1] != "?":
         print("Sorry, I only answer questions.")
->>>>>>> 81fd52a6e13ca3962ac3d7a4834d6fe3581c1586
